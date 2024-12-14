@@ -21,9 +21,11 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+        <SubHeading title="Our Passion in Pictures" />
+        <h1 className="headtext__cormorant">Explore Our Culinary Journey</h1>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>
+          At FoodieCapital, every dish tells a story. Our gallery captures the beauty of our creations, from mouthwatering appetizers to decadent desserts. Take a look at the magic that happens in our kitchen and the unforgettable moments shared at our tables.
+        </p>
         <button type="button" className="custom__button">View More</button>
       </div>
       <div className="app__gallery-images">

@@ -8,8 +8,8 @@
 }
 
 .app__aboutus-overlay img {
-    width: 900px;
-    height: 850px;
+    width: 100%; /* Make sure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
     z-index: 0;
 }
 
@@ -24,7 +24,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     text-align: right;
 }
 
@@ -42,7 +41,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
     text-align: left;
 }
 
@@ -54,7 +52,7 @@
 
 @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
-        height: 1110px;
+        height: 1000px;
     }
 
     .app__aboutus-content_about p,
@@ -75,7 +73,8 @@
 
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
-        width: 80%;
-        height: 320px;
+        width: 100%; /* Ensure the image takes up the full width */
+        height: auto; /* Maintain the aspect ratio */
+        max-height: 500px; /* Limit the height to avoid stretching on very small screens */
     }
 }
